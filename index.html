@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Wow! So many gifs...</title>
+    <!-- Linking to reset and style css respectively -->
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  </head>
+
+<body>
+    <!-- Here are my original fixed buttons, to be on the page regardless of input -->
+    <button data-dog = "Australian Shepherd">Australian Shepherds!</button>
+    <button data-dog = "Bernese Mountain Dog">Bernese Mountain Dog</button>
+    <button data-dog = "Doge">Meme dog</button>
+    <button data-dog = "German Shepherd">German Shepherds</button>
+    <button data-dog = "Chihuahua">Chihuahuas!</button>
+    <button data-dog = "Pitbull">Pitbulls!</button>
+
+    <!-- New user created buttons will be put here -->
+    <div id = "newButtons"></div>
+    
+
+    <!-- Here is where the user can input text and make a button -->
+<form>
+    <input type="text" id="dogInput">
+    <input id="add-dog" type="submit" value="Add a Dog">
+</form>
+
+   <!-- <div id="gifs-appear-here"></div> -->
+
+   <div  id="dog-view"></div>
+
+    <script type="text/javascript" src="assets/JS/javascript.js"></script>
+</body>
